@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/hi"
+        android:title="hi"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/bye"
+        android:title="bye"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/bye2"
+        android:title="bye"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:title="safasd"
+        android:id="@+id/bye3"
+        android:icon="@drawable/ic_baseline_airplanemode_active_24"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/bye4"
+        android:title="bye4"
+        app:showAsAction="collapseActionView"
+        />
+
+
+</menu>
